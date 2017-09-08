@@ -44,7 +44,7 @@ class Santander  extends AbstractBoleto implements BoletoContract
      *
      * @var array
      */
-    protected $carteirasNomes = ['101' => 'Cobrança Simples com Registro - RCR', '102' => 'Cobrança Simples CSR'];
+    protected $carteirasNomes = ['101' => 'Cobrança Simples RCR', '102' => 'Cobrança Simples CSR'];
     /**
      * Define o valor do IOS - Seguradoras (Se 7% informar 7. Limitado a 9%) - Demais clientes usar 0 (zero)
      *
